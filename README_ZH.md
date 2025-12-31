@@ -1,5 +1,7 @@
 # hy-mt1.5-candle-inference
 
+[中文](README_ZH.md) | [English Version](README.md)
+
 基于 [Candle](https://github.com/huggingface/candle) 机器学习框架的腾讯 **混元翻译 (Hunyuan-MT) 1.5** 模型高性能 Rust 推理实现。
 
 本项目提供了一个 OpenAI 兼容的 API 接口和命令行工具，旨在实现高效的翻译任务。

@@ -1,5 +1,7 @@
 # hy-mt1.5-candle-inference
 
+[English](README.md) | [中文版](README_ZH.md)
+
 High-performance Rust inference implementation for Tencent's **Hunyuan-MT 1.5** translation models using the [Candle](https://github.com/huggingface/candle) ML framework.
 
 This project provides an OpenAI-compatible API and a command-line interface for efficient translation tasks.
