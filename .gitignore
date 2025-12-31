@@ -1,0 +1,14 @@
+# Rust构建输出
+target/
+
+# AI模型（大文件不上传）
+HY-MT1.5-1.8B-FP8/
+
+# 临时文件
+*.tmp
+*.temp
+~*
+
+# Python缓存
+__pycache__/
+*.pyc

@@ -1,0 +1,24 @@
+Prompts
+Prompt Template for ZH<=>XX Translation.
+将以下文本翻译为{target_language}，注意只需要输出翻译后的结果，不要额外解释：
+
+{source_text}
+Prompt Template for XX<=>XX Translation, excluding ZH<=>XX.
+Translate the following segment into {target_language}, without additional explanation.
+
+{source_text}
+Prompt Template for terminology intervention.
+参考下面的翻译：
+{source_term} 翻译成 {target_term}
+
+将以下文本翻译为{target_language}，注意只需要输出翻译后的结果，不要额外解释：
+{source_text}
+Prompt Template for contextual translation.
+{context}
+参考上面的信息，把下面的文本翻译成{target_language}，注意不需要翻译上文，也不要额外解释：
+{source_text}
+
+Prompt Template for formatted translation.
+将以下<source></source>之间的文本翻译为中文，注意只需要输出翻译后的结果，不要额外解释，原文中的<sn></sn>标签表示标签内文本包含格式信息，需要在译文中相应的位置尽量保留该标签。输出格式为：<target>str</target>
+
+<source>{src_text_with_format}</source>
